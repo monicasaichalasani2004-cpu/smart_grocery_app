@@ -1,0 +1,37 @@
+name: smart_grocery_app
+description: A simple grocery app
+publish_to: "none"
+version: 1.0.0+1
+
+# IMPORTANT: allow Dart 3.7+ (required by sqflite_common_ffi 2.3.x)
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.5
+  path: ^1.8.4
+  sqflite: ^2.2.8+4
+  # Use the latest published 2.x line (2.3.6) — ^2.4.0 does not exist.
+  sqflite_common_ffi: 2.3.6
+  file_picker: ^5.2.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/all.png
+    - assets/images/produce.png
+    - assets/images/dairy.png
+    - assets/images/snacks.png
+    - assets/images/beverages.png
+    - assets/images/bakery.png
+    - assets/images/frozen.png
+    - assets/images/household.png
