@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/grocery_provider.dart';
 import '../models/grocery_item.dart';
-
+//Added delete option. //Nirupam//
 class CartScreen extends StatelessWidget {
   const CartScreen({super.key});
 
